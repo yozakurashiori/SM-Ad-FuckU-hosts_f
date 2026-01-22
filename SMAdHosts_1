@@ -1,18 +1,10 @@
 #————SM广告丟那吗hosts————
-! Title: SM广告丟那吗hosts（仅拦截）
 #版本：2.9
-#更新日期：251201
-#规则数：4963
+#更新日期：260116
+#规则数：4936
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
-
-
-#————————测试区————————
-#0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
-0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
-0.0.0.0 res.openinstall.com
-0.0.0.0 access.pickpackapp.com  #pikpak中国IP不给用弹窗，副作用未知
 
 
 #———————社•交•类———————
@@ -302,9 +294,10 @@
 #0.0.0.0 free-aos-cdn-image.amap.com  #误伤一些图标
 0.0.0.0 optimus-ads-ykx.amap.com
 #滴滴（①开屏广告会误伤主页一些图标的图）
-#0.0.0.0 img-ys011.didistatic.com
+0.0.0.0 img-ys011.didistatic.com
 #0.0.0.0 adtrack.xiaojukeji.com  #滴滴顺风车主页面闪退到没网界面
 #0.0.0.0 ut-static.udache.com  #滴滴顺风车邀请车主贴图广告，误杀查看进行中的行程
+0.0.0.0 s3-hnapuhdd-cdn.didistatic.com  #滴滴开屏2，节日
 #去哪儿旅行（①顶部横幅广告图②开屏广告③强制升级弹窗）
 #0.0.0.0 qimgs.qunarzz.com
 0.0.0.0 homefront.qunar.com
@@ -2618,6 +2611,9 @@
 0.0.0.0 cnbj1.fds.api.xiaomi.co  #小米遥控器底部横幅
 0.0.0.0 api.jr.mi.com  #小米钱包净化
 0.0.0.0 sug.browser.miui.com  #小米浏览器搜索提示，上方的应用推广和下面的联想词一起干没
+0.0.0.0 api.comm.miui.com  #小米日历广告
+#小米天气主页广告、央视天气预报和适宜XX卡片
+#0.0.0.0  wtradv.market.xiaomi.com
 
 
 #反诈
@@ -5414,3 +5410,4 @@
 0.0.0.0 tk2.xfadx.com  #安兔兔
 0.0.0.0 t.ag.b9ad.com  #安兔兔
 0.0.0.0 ads.cxwlad.com  #畅行未来
+0.0.0.0 v66-ad.ndcjl.com
